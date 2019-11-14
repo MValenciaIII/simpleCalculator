@@ -4,7 +4,7 @@
 */
 
 //grab the id of everything we need.
-var button = document.querySelectorAll('.calculator button');
+var button = document.querySelectorAll('.num');
 
 
 // button.addEventListener('click', function () {
@@ -21,7 +21,7 @@ for (let i = 0; i < button.length; i++) {
             if(button) {
                 //grab the value of the button that was clicked.
                 var addScreen = document.getElementById('screen')
-                addScreen.innerText = i;
+                addScreen.innerText = 9 - i;
             }
         })
     
