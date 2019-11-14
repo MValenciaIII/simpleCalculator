@@ -1,0 +1,54 @@
+.table {
+border: solid rgb(114, 45, 45) 5px;
+
+}
+.calculator {
+    border-radius: 20px;
+    background: rgb(252,196,10);
+    background: linear-gradient(220deg, rgb(66, 66, 66) 0%, rgb(48, 47, 46) 100%);
+    box-shadow: black 10px 10px 5px 0;
+    border-bottom: solid linear-gradient(356deg, rgb(63, 63, 63) 0%, rgb(102, 102, 102) 100%) 20px;
+    width: 280px;
+    height: 350px;
+}
+
+#screen {
+    background: #5c504c;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width:220px;
+    height: 50px;
+}
+
+.calculator button {
+    border-radius: 2px;
+    padding: 16px 22px;
+    background: rgb(154,147,147);
+    background: linear-gradient(360deg, rgb(155, 153, 153) 0%, rgb(170, 170, 170) 50%, rgb(155, 155, 155) 100%);    
+}
+
+.buttonSpec {
+    margin: 0;
+    display: inline;
+}
+.calculator ul {
+    list-style: none;
+    padding-left: 35px ;
+}
+
+.calculator li {
+    margin: 0;
+    display: inline;
+}
+
+.calculator p {
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.calculator span {
+    color: rgb(29, 29, 29);
+}
