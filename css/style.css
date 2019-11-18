@@ -14,8 +14,8 @@ border: solid rgb(114, 45, 45) 5px;
 
 #screen {
     background: #5c504c;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 29px;
     margin-bottom: 20px;
     width:220px;
     height: 50px;
@@ -34,7 +34,7 @@ border: solid rgb(114, 45, 45) 5px;
 }
 .calculator ul {
     list-style: none;
-    padding-left: 35px ;
+    padding-left: 25px;
 }
 
 .calculator li {
