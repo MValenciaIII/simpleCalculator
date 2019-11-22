@@ -76,9 +76,9 @@ Create different functions to deal with different operations.
     for (let i = 0; i < numbers.length; i++) {
         const element = numbers[i];
         element.addEventListener('click', function (event) {
-            if (element.length > 5) {
-                element.value = element.value.subscript(0,5);
-            }
+            // if (element.length > 5) {
+            //     element.value = element.value.subscript(0,5);
+            // }
             screen.innerText += element.getAttribute('data-value');
            
             
